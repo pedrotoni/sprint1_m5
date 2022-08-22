@@ -1,0 +1,192 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin:0;
+}
+
+.head{
+  background:dimgrey;
+  color:white;
+  text-align:center;
+  line-height:20px;
+  padding:30px;
+}
+
+.head-buttons{
+  display: flex;
+  justify-content:space-around;
+}
+
+#head-button1, #head-button2, #head-button3, #head-button4{
+  cursor:pointer;
+  margin-top:30px;
+  padding:10px;
+  height:50px;
+  width:130px;
+  border-radius:3px;
+}
+
+button:hover, input[type=submit]:hover, .buy-button:hover{
+  background:black;
+  color:white;
+}
+
+.description-and-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.description{
+  padding: 20px;
+  margin-left:50px;
+}
+
+.form{
+  margin-left:100px;
+  padding:20px;
+  line-height:50px;
+}
+
+input[type=text], input[type=email], label{
+  width: 50%;
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  margin-top:10px;
+  width: 50%;
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor:pointer;
+  -webkit-border-radius: 3px;
+}
+
+.radio-buttons{
+  width:300px;
+  display:flex;
+}
+
+.card{
+  width:200px;
+  height:350px;
+  text-align:left;
+  padding:20px;
+  border-color:dimgrey;
+  border-style:solid;
+  border-width:thin;
+  box-shadow: 3px 1px 1px dimgrey;
+}
+
+.card-img{
+  margin-left:25px;
+  width:150px;
+  height:125px;
+}
+
+h5, .info {
+  margin-top:20px;
+  font-size:0.8em;
+  line-height:0.95em;
+}
+
+.buy-button{
+  margin:auto;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor:pointer;
+  -webkit-border-radius: 3px;
+}
+
+.divider{
+  display:flex;
+  align-items:center;
+  text-align:center;
+}
+
+.divider::after,
+.divider::before {
+  content: "";
+  border: 1px groove;
+  flex: 0.5;
+}
+
+.divider:not(:empty)::before {
+  margin-right: 0.75em;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 0.75em;
+}
+
+.all-cards{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding-left:5%;
+  grid-gap:20px;
+}
+
+.card:hover{
+  opacity:0.85;
+  background:dimgrey;
+  color:white;
+}
+
+.button-div{
+  margin-top:30px;
+  display: flex;
+  justify-content:center;
+}
+
+.change-page-button, .send-button{
+  width:300px;
+  height:35px;
+  border-radius:3px;
+  cursor:pointer;
+}
+
+.section3{
+  margin-top:-15px;
+}
+
+.section3-text{
+  text-align:center;
+}
+
+.mini-form{
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.mini-form-name, .mini-form-email{
+  padding:20px;
+  width:450px;
+  display:flex;
+  flex-direction:column;
+}
+
+#friend-email,#friend-name {
+  margin-top:5px;
+  width:450px;
+  line-height:20px;
+  height:35px;
+
+}
+
+.section3-button-div{
+  display:flex;
+  justify-content: center;
+}
+
+.footer{
+  padding:20px;
+  width: 100%;
+  height:50px;
+  background:dimgrey;
+  color: white;
+  text-align: center;
+}
